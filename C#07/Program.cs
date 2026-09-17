@@ -26,6 +26,13 @@
             Console.WriteLine(book.Genre);
             #endregion
 
+            #region Q5
+            //Cast each enum value to int to print its underlying integer value.
+            Console.WriteLine((int)Genre.Fiction);
+            Console.WriteLine((int)Genre.NonFiction);
+            Console.WriteLine((int)Genre.Science);
+            #endregion
+
         }
     }
 }
