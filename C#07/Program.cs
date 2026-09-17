@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             #region Q1
-            Book book = new Book();
+            Book book = new();
             //Console.WriteLine(book.Password);
             ////It won't compile cuz Password is private, so it cannot be accessed from outside the Book class.
             #endregion
@@ -38,6 +38,11 @@
             Genre genre = (Genre)genreNumber;
             Console.WriteLine(genre);
             // index 1 -> fiction
+            #endregion
+
+            #region Q7
+            Genre genre07 = Genre.Fiction;
+            Console.WriteLine(genre07.ToString());
             #endregion
 
         }
