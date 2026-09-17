@@ -2,6 +2,8 @@
 
 internal class Book
 {
-    private string Password = "secret";
+	#region Q1 field
+	private string Password = "secret";
+    #endregion
 
 }
