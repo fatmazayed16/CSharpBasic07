@@ -45,6 +45,11 @@
             Console.WriteLine(genre07.ToString());
             #endregion
 
+            #region Q8
+            string genreText = "Science";
+            Genre genre08 =(Genre) Enum.Parse(typeof(Genre) ,genreText );
+            Console.WriteLine(genre08);
+            #endregion
         }
     }
 }
