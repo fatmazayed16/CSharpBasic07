@@ -15,6 +15,12 @@
             //It will combile cuz copiesInStock is internal, so so it can be accessed from outside the Book class(but in the same project).
             #endregion
 
+            #region Q3
+            book.Title = "Clean Code";
+            Console.WriteLine(book.Title);
+            //It will combile cuz title is Public.
+            #endregion
+
         }
     }
 }

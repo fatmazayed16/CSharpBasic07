@@ -1,4 +1,6 @@
-﻿namespace C_07;
+﻿using System.Threading.Channels;
+
+namespace C_07;
 
 internal class Book
 {
@@ -8,6 +10,10 @@ internal class Book
 
 	#region Q2 Field
 	internal int copiesInStock = 5;
+    #endregion
+
+    #region Q3 field
+    public string Title =default!;
     #endregion
 
 }
