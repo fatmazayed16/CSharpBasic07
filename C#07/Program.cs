@@ -21,6 +21,11 @@
             //It will combile cuz title is Public.
             #endregion
 
+            #region Q4
+            book.Genre = Genre.Science;
+            Console.WriteLine(book.Genre);
+            #endregion
+
         }
     }
 }
